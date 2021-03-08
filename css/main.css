@@ -33,16 +33,22 @@ body {
 }
 
 .close {
+    color: #ccc;
     display: inline-block;
     width: 60px;
     height: 60px;
     font-size: 30px;
-    background-color: red;
     text-align: center;
     line-height: 57px;
     position: absolute;
     top: 0;
     right: 0;
+}
+
+.close:hover {
+    background-color: #ccc;
+    color: black;
+    cursor: pointer;
 }
 
 form {
